@@ -23,8 +23,13 @@
   "dependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/graphql": "^10.1.1",
+    "@nestjs/mercurius": "^10.1.0",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/platform-fastify": "^9.0.11",
+    "fastify": "^4.5.3",
+    "graphql": "^16.6.0",
+    "mercurius": "^11.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
