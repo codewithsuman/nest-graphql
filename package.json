@@ -1,8 +1,8 @@
 {
   "name": "nest-graphql",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Sample implementation of loaders to avoid the 1 + N query problem of GraphQL.",
+  "author": "Suman Jha",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -28,6 +28,7 @@
     "@nestjs/mercurius": "^10.1.0",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/platform-fastify": "^9.0.11",
+    "dataloader": "^2.1.0",
     "fastify": "^4.5.3",
     "graphql": "^16.6.0",
     "mercurius": "^11.0.0",
